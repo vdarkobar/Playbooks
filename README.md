@@ -9,6 +9,7 @@ Populate Ansible hosts file with the required data:
 ```
 sudo nano /etc/ansible/hosts
 ```
+```
 [all:vars]                                                  # Change: <user>, <bastion pass>, ip
 # Username for ssh connection
 ansible_user=<user>
@@ -21,20 +22,9 @@ ansible_python_interpreter='/usr/bin/env python3'
 # Password for sudo
 ansible_become_pass='<bastion pass>'
 
-#...
+#
 
 [servers]
 ip
 ip
 ```
-
-```
-
-```
-
-```
-
-```
-
-```
-
