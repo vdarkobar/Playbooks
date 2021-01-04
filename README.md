@@ -9,9 +9,13 @@ Edit Ansible configuration file:
 sudo nano /etc/ansible/ansible.cfg
 ```
   
-Populate Ansible hosts file with the required data:
+Populate with the required data:
 ```
 sudo nano /etc/ansible/hosts
+# or
+sudo nano /etc/ansible/inventory
+# or
+sudo nano Playbooks/inventory
 ```
 ```
 [all:vars]
