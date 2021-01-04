@@ -7,7 +7,7 @@
 ### Install Ansible:
 ```
 sudo apt install ansible -y
-sudo ansible --version
+ansible --version
 ```
 	
 ### To Install latest version:
