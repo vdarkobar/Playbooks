@@ -40,7 +40,7 @@ ansible_python_interpreter='/usr/bin/env python3'
 
 # Aliases
 server1 ansible_host=<ip2>
-sever2 ansible_host=<ip2>
+server2 ansible_host=<ip3>
 ```
   
 ### Clone this git repository:
