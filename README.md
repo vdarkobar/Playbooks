@@ -26,12 +26,9 @@ sudo nano /etc/ansible/ansible.cfg
   
 Populate with the required data:
 ```
-sudo nano /etc/ansible/hosts
-# or
-sudo nano /etc/ansible/inventory
-# or
-sudo nano Playbooks/inventory
+sudo nano Playbooks/inventory					# sudo nano /etc/ansible/hosts, sudo nano /etc/ansible/inventory
 ```
+<!--- 
 ```
 [all:vars]
 
@@ -57,6 +54,7 @@ ansible_python_interpreter='/usr/bin/env python3'
 server1 ansible_host=<ip2>
 server2 ansible_host=<ip3>
 ```
+--->
   
 ### Clone this git repository:
 ```
