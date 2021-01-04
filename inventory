@@ -1,7 +1,7 @@
 [all:vars]
 
 # Username for ssh connection
-ansible_user=darko
+ansible_user=<username>                                     # change
 
 # Run commands as root user?
 ansible_become=yes
@@ -13,10 +13,10 @@ ansible_become_method=sudo
 ansible_python_interpreter='/usr/bin/env python3'
 
 # Password for sudo
-#ansible_become_pass='<pass>'
+#ansible_become_pass='<pass>'                               # try without; uncomment, change 
 
 [servers]
-<ip1>
+<ip1>                                                       # change/add other servers
 
 # Aliases
-test ansible_host=<ip2>
+test ansible_host=<ip2>                                     # change/add other servers
