@@ -32,7 +32,9 @@ git clone https://github.com/vdarkobar/Playbooks.git
   
 Populate with the required data:
 ```
-sudo nano Playbooks/inventory			# sudo nano /etc/ansible/hosts, sudo nano /etc/ansible/inventory
+sudo nano Playbooks/inventory			
+
+# Additional ways to create inventory: sudo nano /etc/ansible/hosts, sudo nano /etc/ansible/inventory
 ```  
   
 Run Playbook:
