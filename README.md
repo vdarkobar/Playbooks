@@ -32,3 +32,8 @@ ansible_become_pass='<bastion pass>'
 ip
 ip
 ```
+  
+# Clone this git repository:
+```
+
+```
