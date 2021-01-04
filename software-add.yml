@@ -1,0 +1,11 @@
+- hosts: servers
+  become: true
+  become_user: root
+  tasks:
+          - name: Add a list of software on VMs ...
+            apt:
+                    name: "{{ packages }}"
+                    state: present
+            vars:
+                    packages:
+                            - neofetch
