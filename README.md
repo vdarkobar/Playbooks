@@ -21,7 +21,7 @@ sudo nano Playbooks/inventory
 [all:vars]
 
 # Username for ssh connection
-ansible_user=darko
+ansible_user=<username>
 
 # Run commands as root user?
 ansible_become=yes
