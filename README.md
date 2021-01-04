@@ -33,3 +33,8 @@ Populate with the required data:
 ```
 sudo nano Playbooks/inventory			# sudo nano /etc/ansible/hosts, sudo nano /etc/ansible/inventory
 ```  
+  
+Run Playbook:
+```
+ansible-playbook -i inventory update.yml
+```
