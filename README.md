@@ -1,5 +1,9 @@
 # Ansible
   
+<p align="left">
+  <a href="https://github.com/vdarkobar/Home_Lab">Home</a>
+</p>  
+  
 ### Install Ansible:
 ```
 sudo apt install ansible -y
@@ -14,10 +18,6 @@ sudo apt update
 sudo apt install ansible -y
 sudo ansible --version
 ```
-  
-<p align="left">
-  <a href="https://github.com/vdarkobar/Home_Lab">Home</a>
-</p>  
   
 Edit Ansible configuration file:
 ```
