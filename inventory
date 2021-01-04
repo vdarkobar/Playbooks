@@ -19,4 +19,4 @@ ansible_python_interpreter='/usr/bin/env python3'
 <ip1>                                                       # change/add other servers
 
 # Aliases
-test ansible_host=<ip2>                                     # change/add other servers
+test ansible_host=<ip2>                                     # change/add other alias(es)=server(s)
