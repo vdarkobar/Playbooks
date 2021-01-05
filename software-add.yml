@@ -1,4 +1,4 @@
-# ansible-playbook -i inventory software-add.yml
+# ansible-playbook -i inventory software_add.yml
 
 - hosts: servers
   become: true
@@ -8,6 +8,6 @@
       apt:
         name: "{{ packages }}"
         state: present
-        vars:
-          packages:
-            - neofetch
+      vars:
+        packages:
+          - neofetch
